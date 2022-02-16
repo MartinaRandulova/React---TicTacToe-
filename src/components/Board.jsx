@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Game.css';
-import Square from './Square'
+import Square from './Square';
+
+let numberOfTurns = 0;
 
 const Board = () => {
   const initialSquares = new Array(9).fill(null);
@@ -22,8 +24,8 @@ const Board = () => {
     }
   };
 
-  let numberOfTurns = 0;
   const winner = calculateWinner(squares,numberOfTurns);
+
   let status;
   switch(winner) {
     case("X"):
@@ -33,7 +35,7 @@ const Board = () => {
       status = `Player ${winner} won!!!`;
       break;
     case("tie"):
-      status = 'It is a tie, nobody won';
+      status = 'It is a tie, nobody won.';
       break;
     default:
       status = `Player ${isX ? 'X' : 'O'} has a turn.`
