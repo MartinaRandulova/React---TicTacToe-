@@ -1,13 +1,8 @@
-## Running React on Repl.it
+## Mini-project - Tic Tac Toe game
+I am currently working on this project in order to sharpen my React skills. My goal is to add as many advanced functions as possible.
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+Available for testing: https://replit.com/@MartinaRandulo1/React-TicTacToe#src/App.jsx
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
-
-Using the two in conjunction is one of the fastest ways to build a web app.
-
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
-
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the `.replit` file.
+#TODO
+- add "reset" button
+- add "undo" button
